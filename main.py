@@ -13,7 +13,6 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 while True:
     list_assigments =[]
-
     # If modifying these scopes, delete the file token.pickle.
     SCOPES = ['https://www.googleapis.com/auth/classroom.courses.readonly','https://www.googleapis.com/auth/classroom.student-submissions.me.readonly','https://www.googleapis.com/auth/classroom.push-notifications']
     def main():
