@@ -155,8 +155,7 @@ while True:
                 todoist(item[0],classes[class_id], item[2])
                 print(f'Task: {item[0]} added for {classes[class_id]}. It is due {item[2]}')
             else:
-                pass
-                
+                print('No tasks to add')
+
         file.close()
     time.sleep(360)
-
